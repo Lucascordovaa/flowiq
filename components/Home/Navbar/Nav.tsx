@@ -28,6 +28,7 @@ const Nav = () => {
           <Button className="bg-[#20a2a2] px-9 py-6 hover:bg-teal-200 hover:text-teal-700">
             Sign Up
           </Button>
+          {/* Change Button? */}
         </div>
       </div>
     </div>
