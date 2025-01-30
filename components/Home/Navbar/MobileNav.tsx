@@ -2,6 +2,7 @@ import React from "react";
 import { navLinks } from "@/constant/Constant";
 import Link from "next/link";
 import { CgClose } from "react-icons/cg";
+import { Button } from "@/components/ui/button";
 
 type Props = {
   showNav: boolean;
@@ -28,6 +29,12 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
             </Link>
           );
         })}
+        <Button className="mx-12 bg-white py-6 text-[#20a2a2] hover:bg-teal-200 hover:text-white">
+          Log in
+        </Button>
+        <Button className="mx-12 bg-white py-6 text-[#20a2a2] hover:bg-teal-200 hover:text-white">
+          Sign Up
+        </Button>
         <CgClose
           onClick={closeNav}
           className="absolute right-[1.4rem] top-[0.7rem] size-6 cursor-pointer sm:size-8"
