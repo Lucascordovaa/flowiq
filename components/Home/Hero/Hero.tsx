@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-full pt-[4vh] md:pt-[12vh]">
+    <div className="min-h-screen w-full pt-[4vh] md:pt-[12vh]">
       <div className="mx-auto my-10 flex w-[90%] flex-col items-center lg:flex-row xl:w-3/5">
         {/* TEXT & MORE CONTENT */}
         <div className="mr-6 flex flex-col items-start space-y-5 self-start">
@@ -36,12 +36,12 @@ const Hero = () => {
           </div>
 
           {/* NUMBERS SECTION */}
-          <div className="flex pt-4 lg:w-[70%]">
+          <div className="flex pt-4 lg:w-4/5">
             {/* First Number Block */}
             <div>
               <h1 className="text-[2.7rem]">350+</h1>
               <p className="pt-2 text-lg text-gray-500">
-                Over 500 business powered with us
+                Over 350 businesses powered by us
               </p>
             </div>
 
@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="pl-14">
               <h1 className="text-[2.7rem]">4.8</h1>
               <p className="pt-2 text-lg text-gray-500">
-                Rating on google play and app store
+                Rating on Google Play and App Store
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Hero = () => {
       </div>
 
       {/* COMPANIES LOGO ROW */}
-      <div className="mx-auto flex w-[90%] flex-col flex-wrap items-center justify-center md:flex-row md:space-x-10 lg:w-3/5 lg:flex-row lg:space-x-[4.5rem]">
+      <div className="mx-auto flex w-[90%] flex-col  items-center justify-center md:flex-row md:space-x-10 lg:w-3/5 lg:flex-row lg:space-x-[4.5rem]">
         <Image
           src="/assets/microsoft.svg"
           alt="microsoft"
