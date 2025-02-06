@@ -6,7 +6,7 @@ const HowEasy = () => {
   return (
     <div className="mx-auto py-16 lg:w-3/5 lg:items-center ">
       <div className="mx-auto lg:w-1/2">
-        <h1 className="mt-6 text-center text-[2.5rem] leading-tight">
+        <h1 className="mt-6 text-center text-[2.7rem] leading-tight">
           How easy is the process of using our platform?
         </h1>
       </div>
