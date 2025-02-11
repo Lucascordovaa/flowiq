@@ -3,6 +3,7 @@ import { Chivo } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Footer from "@/components/Home/Footer/Footer";
 
 const font = Chivo({
   weight: ["100", "200", "300", "400", "500", "700", "900"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${font.className} antialiased`}>
         <ResponsiveNav />
         {children}
+        <Footer />
       </body>
     </html>
   );

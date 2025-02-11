@@ -7,14 +7,14 @@ const HowEasy = () => {
     <div className="mx-auto py-16 lg:w-3/5 lg:items-center ">
       <div className="mx-auto lg:w-1/2">
         <h1 className="mt-6 text-center text-[2.7rem] leading-tight">
-          How easy is the process of using our platform?
+          How simple is it to use our platform?
         </h1>
       </div>
       <div className="mx-2 my-12 grid grid-cols-1 items-baseline lg:grid-cols-5">
         <HowEasyCard
           image="/assets/loginimg.svg"
-          title="Login or sign up to get access to our platform"
-          description="You must log in first to be able to use our platform to get your product analytics"
+          title="Sign up and access your dashboard"
+          description="Create an account or log in to start using our platform and unlock powerful analytics tools."
         />
         <Image
           src="/assets/imgmid.svg"
@@ -25,8 +25,8 @@ const HowEasy = () => {
         />
         <HowEasyCard
           image="/assets/connectimg.svg"
-          title="Connect your website with just a few clicks"
-          description="Select the application you want to connect with just a few clicks"
+          title="Seamlessly connect your favorite tools"
+          description="Easily integrate with your preferred apps and platforms in just a few clicks."
         />
         <Image
           src="/assets/imgmid.svg"
@@ -37,8 +37,8 @@ const HowEasy = () => {
         />
         <HowEasyCard
           image="/assets/getimg.svg"
-          title="Get your sales data analytics"
-          description="Our system gathers data from your connected application, providing you with detailed analytics"
+          title="Gain insights with real-time analytics"
+          description="Our system collects and analyzes your data, giving you valuable insights to optimize your business."
         />
       </div>
     </div>

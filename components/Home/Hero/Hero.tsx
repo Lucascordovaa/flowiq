@@ -8,16 +8,16 @@ const Hero = () => {
     <div className="min-h-screen w-full pt-[4vh] md:pt-[12vh]">
       <div className="mx-auto my-10 flex w-[90%] flex-col items-center lg:flex-row xl:w-3/5">
         {/* TEXT & MORE CONTENT */}
-        <div className="mr-6 flex flex-col items-start space-y-5 self-start">
+        <div className="flex flex-col items-start space-y-5 self-start">
           {/* MAIN TEXT */}
           <h1 className="text-[3.2rem] leading-[1.15]">
-            We help any business to get analytics and sales marketing
+            We help businesses grow with powerful analytics and smart marketing.
           </h1>
 
           {/* SUBTEXT OR ADDITIONAL CONTENT */}
           <p className="text-lg text-gray-500 lg:mr-28">
-            The fastest and simple way to generate growing business solutions
-            with our products
+            The fastest and easiest way to drive business growth with our
+            solutions.
           </p>
 
           {/* EMAIL INPUT */}
@@ -31,7 +31,7 @@ const Hero = () => {
               Get Started
             </Button>
             <p className="mt-6 text-[1rem] text-gray-500 lg:mt-3">
-              *we will not disseminate your email and so you avoid spam
+              *We respect your privacy — no spam, no sharing your email.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
 
         {/* IMAGE */}
-        <div className="mr-6 mt-6 hidden shrink-0 flex-col items-start space-y-5 self-start lg:block ">
+        <div className="mr-6 mt-[4.3rem] hidden shrink-0 flex-col items-start space-y-5 self-start lg:block ">
           <Image
             src="/images/imagehero.png"
             alt="imagehero"
